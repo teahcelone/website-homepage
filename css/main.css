@@ -12,3 +12,11 @@ body {
 nav {
   background-color: #ffcccb;
 }
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  padding: 1.5em 0;
+}
