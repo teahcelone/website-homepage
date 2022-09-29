@@ -14,6 +14,10 @@ body {
   line-height: 1.5;
 }
 
+img {
+  width: 100%;
+}
+
 nav {
   background-color: #BFAA8C;
   font-family: 'Poppins', sans-serif;
@@ -49,6 +53,7 @@ nav ul li a:hover {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  background-color: #000;
 }
 
 .intro {
@@ -68,9 +73,23 @@ nav ul li a:hover {
   padding: 0 1.5em;
 }
 
+.flex {
+  display: flex;
+  gap: 1%;
+}
+
+.profile-pic {
+  margin: 1.5em 0;
+}
+
+.profile-pic > img {
+  height: 100%;
+  border-radius: 6px
+}
+
 .card {
   background-color: #BFAA8C;
-  margin: 2em 0;
+  margin: 1.5em 0;
   padding: 1.5em;
   border-radius: 6px;
 }
@@ -85,6 +104,30 @@ nav ul li a:hover {
   color: #fff;
   font-family: 'Poppins', sans-serif;
   font-weight: lighter;
+}
+
+.images h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  color: #BFAA8C;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.images {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2em 1.5em;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1.5rem;
+}
+
+.grid > img {
+  height: 100%;
 }
 
 footer {
